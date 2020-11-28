@@ -1,0 +1,35 @@
+.home{
+    flex: 1;
+    min-height: 100vh;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions button{
+    margin-left: 10px;
+}
+.actions button:first-child{
+    margin-left: 0;
+}
+.play-area{
+    width: 100%;
+    flex: 1;
+}
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
+/* create */
+
+.create, .view{
+    width: 100%;
+    padding: 40px;
+}
+.view label{
+    font-weight: 700;
+    margin-right: 5px;
+}
